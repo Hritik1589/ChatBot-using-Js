@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    min-height: 90vh;
+    font-family: consolas;
+    background-color:skyblue;
+  }
+ 
+
+.textarea{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    min-height: 20px;
+    max-height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color:black;
+    font-weight: 400;
+    font-size: 15px;
+    word-wrap: break-word;
+    outline: none;
+}
+.courses li{
+  margin:  5px 5px;
+  padding: 5px 5px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: black 2px solid;
+  border-radius: 4px;
+  background-color: white;
+
+}
+#ifrm{
+  height: 400px;
+  width: 500px;
+}
